@@ -1,5 +1,4 @@
 package b1005;
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
@@ -20,7 +19,6 @@ public class Main {
             int N = Integer.parseInt(st.nextToken());
             int K = Integer.parseInt(st.nextToken());
             st = new StringTokenizer(br.readLine());
-            Set<Integer> set = new HashSet<>();
             int startIndex;
             time = new long[N + 1];
             list = new ArrayList[N+1];
@@ -31,37 +29,39 @@ public class Main {
                 list[i] = new ArrayList<>();
                 time[i] = Long.parseLong(st.nextToken());
             }
-            st = new StringTokenizer(br.readLine());
-            int start = Integer.parseInt(st.nextToken());
-            int tmp = Integer.parseInt(st.nextToken());
-            inDegree[tmp]++;
-            list[start].add(tmp);
-            for(int i = 0; i < K-1; i ++) {
+
+            for(int i = 0; i < K; i ++) {
                 st = new StringTokenizer(br.readLine());
                 int a = Integer.parseInt(st.nextToken());
                 int b = Integer.parseInt(st.nextToken());
                 list[a].add(b);
                 inDegree[b]++;
             }
+
             int t = Integer.parseInt(br.readLine());
 
-            Queue<Integer> queue =new LinkedList<>();
-            queue.add(start);
-            totalTime[start] = time[start];
-            System.out.printf(Arrays.toString(inDegree));
-            while (!queue.isEmpty()){
-                int curr = queue.poll();
-                for(int a : list[curr]){
-                    inDegree[a] --;
-                    if(inDegree[a] == 0) queue.add(a);
-                    if(totalTime[a] == 0L) {
-                        totalTime[a] = totalTime[curr] + time[a];
-                    }else if(totalTime[curr] + time[a] > totalTime[a]) totalTime[a] = totalTime[curr] + time[a];
+            Queue<Integer> startQueue = new LinkedList<>();
+            for(int k = 1 ; k < inDegree.length; k++){
+                if(inDegree[k] == 0) startQueue.add(k);
+            }
+            while (!startQueue.isEmpty()){
+                int start = startQueue.poll();
+                Queue<Integer> queue =new LinkedList<>();
+                queue.add(start);
+                totalTime[start] = time[start];
+                while (!queue.isEmpty()){
+                    int curr = queue.poll();
+
+                    for(int a : list[curr]){
+                        if(--inDegree[a] == 0) queue.add(a);
+                        if(totalTime[curr] + time[a] > totalTime[a]) {
+                            totalTime[a] = totalTime[curr] + time[a];
+                        }
+                    }
                 }
             }
             System.out.println(totalTime[t]);
+
         }
     }
-
-
 }
