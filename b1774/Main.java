@@ -40,7 +40,7 @@ public class Main {
             union(a,b);
         }
 
-        for
+
     }
 
     static int find(int a){
