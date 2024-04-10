@@ -3,6 +3,8 @@ package b12100;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     static BufferedReader br;
@@ -39,10 +41,10 @@ public class Main {
     }
 
     static void t(int cnt, int arr[][]){
-        if(cnt == 1) {
+        if(cnt == 5) {
             int find = find(arr);
             if(find > max) max = find;
-            print(arr);
+//            print(arr);
             return ;
         }
         int a[][] = copy(arr);
@@ -71,6 +73,7 @@ public class Main {
         return newArr;
     }
     static void left(int arr[][]){
+        Set<String> set = new HashSet<>();
         for(int i = 0; i < N; i++){
             for(int k = 0; k  < N- 1; k++){
                 if(arr[i][k+1] != 0){
@@ -80,9 +83,10 @@ public class Main {
                         arr[i][tmp + 1] = 0;
                         tmp --;
                     }
-                    if(tmp >= 0 && arr[i][tmp] == arr[i][tmp+1]){
+                    if(tmp >= 0 && arr[i][tmp] == arr[i][tmp+1] && !set.contains(i + " " + tmp)){
                         arr[i][tmp]*=2;
                         arr[i][tmp+1] = 0;
+                        set.add(i + " " + tmp);
                     }
                 }
             }
@@ -90,6 +94,8 @@ public class Main {
     }
 
     static void right (int arr[][]){
+        Set<String> set = new HashSet<>();
+
         for(int i = 0; i < N; i++){
             for(int k = N-1; k  >= 1; k--){
                 if(arr[i][k-1] != 0){
@@ -99,9 +105,11 @@ public class Main {
                         arr[i][tmp - 1] = 0;
                         tmp ++;
                     }
-                    if(tmp < N && arr[i][tmp] == arr[i][tmp-1]){
+                    if(tmp < N && arr[i][tmp] == arr[i][tmp-1] && !set.contains(i + " " + tmp)){
                         arr[i][tmp]*=2;
                         arr[i][tmp-1] = 0;
+                        set.add(i + " " + tmp);
+
                     }
                 }
 
@@ -109,6 +117,8 @@ public class Main {
         }
     }
     static void down(int arr[][]){
+        Set<String> set = new HashSet<>();
+
         for(int i = 0; i < N; i++){
 
             for(int k = N-1; k  >= 1; k--){
@@ -119,15 +129,19 @@ public class Main {
                         arr[tmp -1][i] = 0;
                         tmp ++;
                     }
-                    if(tmp < N && arr[tmp][i] == arr[tmp-1][i]){
+                    if(tmp < N && arr[tmp][i] == arr[tmp-1][i] && !set.contains(i + " " + tmp)){
                         arr[tmp][i]*=2;
                         arr[tmp-1][i] = 0;
+                        set.add(i + " " + tmp);
+
                     }
                 }
             }
         }
     }
     static void up (int arr[][]){
+        Set<String> set = new HashSet<>();
+
         for(int i = 0; i < N; i++){
             for(int k = 0; k  < N-1; k++){
                 if(arr[k+1][i] != 0){
@@ -137,9 +151,11 @@ public class Main {
                         arr[tmp + 1][i] = 0;
                         tmp--;
                     }
-                    if(tmp >= 0 && arr[tmp][i] == arr[tmp+1][i]){
+                    if(tmp >= 0 && arr[tmp][i] == arr[tmp+1][i] && !set.contains(i + " " + tmp)){
                         arr[tmp][i]*=2;
                         arr[tmp+1][i] = 0;
+                        set.add(i + " " + tmp);
+
                     }
                 }
             }
