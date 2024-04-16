@@ -19,10 +19,17 @@ public class Main {
     static char map[][] = new char[50][50];
     static int min = Integer.MAX_VALUE;
     static int dir[][] ={
+<<<<<<< Updated upstream
         {-1,0},{0,1},{1,0},{0,-1}
     };
 
     static boolean visited[][][] = new boolean[50][50][4];
+=======
+            {-1,0},{0,1},{1,0},{0,-1}
+    };
+
+    static boolean visited[][] = new boolean[50][50];
+>>>>>>> Stashed changes
     public static void main(String[] args)throws Exception {
         System.setIn(new FileInputStream("b2151/input.txt"));
         br = new BufferedReader(new InputStreamReader(System.in));
@@ -40,8 +47,12 @@ public class Main {
     static void find(Pos pos, int currDir, int cnt){
         int currX = pos.x;
         int currY = pos.y;
+<<<<<<< Updated upstream
         if(currDir == -1 ) currDir = 3;
         if(currDir == 4) currDir = 0;
+=======
+
+>>>>>>> Stashed changes
         for(int i = 0; i < 4; i++){
             Queue<int[]> queue = new LinkedList<>();
             int x = currX;
@@ -50,6 +61,7 @@ public class Main {
                 x += dir[currDir%4][0];
                 y += dir[currDir%4][1];
                 if(map[x][y] == '*') break;
+<<<<<<< Updated upstream
                 if(visited[x][y][currDir % 4] || visited[x][y][(currDir + 2) % 4] ) break;
                 if(map[x][y] == '#'){
                     min  = Math.min(min, cnt);
@@ -94,6 +106,29 @@ public class Main {
         System.out.println("==============");
 
     }
+=======
+                if(visited[x][y]) break;
+                if(map[x][y] == '#'){
+                    min  = Math.min(min, cnt);
+                    break;
+                }
+                if(map[x][y] == '!'){
+                    visited[x][y] = true;
+                    find(new Pos(x,y),currDir -1, cnt + 1);
+                    find(new Pos(x,y),currDir +1, cnt + 1);
+                }
+            }
+
+            while (x != currX && y != currY){
+                visited[x][y] = false;
+                x -= dir[currDir%4][0];
+                y -= dir[currDir%4][1];
+            }
+
+        }
+    }
+
+>>>>>>> Stashed changes
     static boolean inRange(int x, int y){
         return x >=0 && y >= 0 && x < N && y < N;
     }
