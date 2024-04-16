@@ -7,8 +7,7 @@ import java.util.*;
 
 public class Main {
 
-    static Set<Integer> setX = new HashSet<>();
-    static Set<Integer> setY = new HashSet<>();
+    static int X[],Y[];
     public static void main(String[] args) throws Exception{
         System.setIn(new FileInputStream("b1090/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,41 +15,34 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
         ArrayList<int[]> arr= new ArrayList<>();
         StringBuilder sb = new StringBuilder();
+        X = new int[N];
+        Y = new int[N];
         for(int i = 0; i < N ; i++ ){
             String[] str = br.readLine().split(" ");
             int a = Integer.parseInt(str[0]);
             int b = Integer.parseInt(str[1]);
             arr.add(new int[]{a,b});
-            setX.add(a);
-            setY.add(b);
+            X[i] = a;
+            Y[i] = b;
         }
 
         for(int t = 1 ;t <= N; t++){
-            Iterator<Integer> iterX = setX.iterator();
-            PriorityQueue<Integer> pq = new PriorityQueue<>();
-            while (iterX.hasNext()){
-                int x = iterX.next();
-                PriorityQueue<Integer> tmp = new PriorityQueue<>();
-
-                Iterator<Integer> iterY = setY.iterator();
-                while (iterY.hasNext()){
-                    int y = iterY.next();
-                    //x y 를 선택했을 때
-                    for(int k = 0; k< arr.size();k ++) {
-                        int gapX = Math.abs(arr.get(k)[0] - x);
-                        int gapY = Math.abs(arr.get(k)[1] - y);
-                        tmp.add(gapX + gapY);
+            PriorityQueue<Integer> result = new PriorityQueue<>();
+            for(int x = 0; x < N; x++){
+                for(int y = 0 ; y < N; y++){
+                    PriorityQueue<Integer> pq = new PriorityQueue<>();
+                    for(int idx = 0; idx < N; idx ++){
+                        int gapX = Math.abs(X[x] - arr.get(idx)[0]);
+                        int gapY = Math.abs(Y[y] - arr.get(idx)[1]);
+                        pq.add(gapX + gapY);
                     }
                     int sum = 0;
-                    for(int i = 0 ; i < t; i++) sum += (tmp.isEmpty() ? 0 : tmp.poll());
-                    pq.add(sum);
+                    for(int i = 0; i < t; i++) sum += (pq.isEmpty() ? 0 : pq.poll());
+                    result.add(sum);
                 }
             }
-            sb.append(pq.poll()).append(" ");
-
+            sb.append(result.isEmpty() ? 0 : result.poll()).append(" ");
         }
-
         System.out.println(sb.toString());
-
     }
 }
