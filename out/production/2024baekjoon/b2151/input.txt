@@ -1,0 +1,23 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+4
+#!!!
+!!!!
+!!!!
+!!!#
+=======
+=======
+>>>>>>> Stashed changes
+7
+!!..!.#
+*.....*
+.!..!..
+!!*.!.!
+.*!!.*!
+...!!..
+<<<<<<< Updated upstream
+!*#****
+>>>>>>> Stashed changes
+=======
+!*#****
+>>>>>>> Stashed changes

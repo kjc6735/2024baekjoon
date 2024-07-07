@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024baekjoon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1261/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1261/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/2024baekjoon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1005/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1011/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1022/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1027/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1039/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b10423/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1068/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b10818/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b10836/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1090/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b11053/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1145/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1149/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b11505/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b11657/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b11899/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1202/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1208/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b12100/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1253/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1261/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1275/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b12865/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1325/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b13418/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b13913/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b13975/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14226/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14400/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14428/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14438/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14568/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14621/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14697/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b14718/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15486/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15593/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15651/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15654/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15655/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15656/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b15971/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b16283/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1644/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b16562/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b16933/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b16943/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1697/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b17070/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b17142/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b17404/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b17472/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1759/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1774/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1799/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1806/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1816/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b18310/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1938/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1941/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b19523/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b1958/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b19942/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b19949/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2003/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b20040/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b20544/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2151/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2268/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2304/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2309/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2357/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b24025/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2412/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2467/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2473/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2487/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b25577/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2577/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2589/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2628/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2668/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2675/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2752/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2805/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2851/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2875/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2884/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b2920/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b30087/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b30467/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b3273/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b3967/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b4386/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b5427/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b5639/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b5676/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b5972/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b6131/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b9007/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b9251/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b9252/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b9328/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b9465/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b9935/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2024baekjoon/sw11446/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/baejoon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="REBUILD_ON_DEPENDENCY_CHANGE" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2iu6clJY435Gn5WjIfjYqJ2gMIF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b1261.Main" />
+      <module name="2024baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b1261.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="" />
+      <created>1720328197533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720328197533</updated>
+      <workItem from="1720328198624" duration="47000" />
+      <workItem from="1720328252363" duration="149000" />
+      <workItem from="1720328405251" duration="446000" />
+      <workItem from="1720328870827" duration="110000" />
+      <workItem from="1720328982968" duration="90000" />
+      <workItem from="1720329080669" duration="2705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
