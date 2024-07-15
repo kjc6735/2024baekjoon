@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/b2533/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b2533/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7562/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7562/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/baejoon.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -67,11 +67,11 @@
 }</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b2533.Main" />
+      <option name="MAIN_CLASS_NAME" value="b7562.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b2533.*" />
+          <option name="PATTERN" value="b7562.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,7 +159,9 @@
       <workItem from="1720504801058" duration="6785000" />
       <workItem from="1720580023830" duration="5280000" />
       <workItem from="1720684509639" duration="23108000" />
-      <workItem from="1720835349330" duration="3167000" />
+      <workItem from="1720835349330" duration="9202000" />
+      <workItem from="1720927074893" duration="4693000" />
+      <workItem from="1721043742712" duration="899000" />
     </task>
     <servers />
   </component>
@@ -175,11 +177,16 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/b2533/Main.java</url>
           <line>10</line>
-          <properties class="b2533.Main" method="main">
+          <properties class="b2533.Main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/b26159/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
