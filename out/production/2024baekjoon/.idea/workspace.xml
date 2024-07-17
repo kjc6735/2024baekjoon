@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/b12947/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b12947/input.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/b24230/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/b24230/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
@@ -13,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.b24230.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b7562.Main" />
       <module name="2024baekjoon" />
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b20440.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b20440.Main" />
+    <configuration name="b24230.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b24230.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b20440.*" />
+          <option name="PATTERN" value="b24230.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.b24230.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.b14267.Main" />
         <item itemvalue="Application.b3020.Main" />
         <item itemvalue="Application.b3584.Main" />
-        <item itemvalue="Application.b20440.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,8 @@
       <workItem from="1720835349330" duration="9202000" />
       <workItem from="1720927074893" duration="4693000" />
       <workItem from="1721043742712" duration="2061000" />
-      <workItem from="1721102435261" duration="1101000" />
+      <workItem from="1721102435261" duration="1704000" />
+      <workItem from="1721140903063" duration="2046000" />
     </task>
     <servers />
   </component>
@@ -188,6 +192,11 @@
           <url>file://$PROJECT_DIR$/b26159/Main.java</url>
           <line>33</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/b24230/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
