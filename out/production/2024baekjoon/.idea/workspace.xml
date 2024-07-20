@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/b18116/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b18116/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1939/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1939/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/baejoon.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -65,20 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.b18116.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b7562.Main" />
-      <module name="2024baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="b7562.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.b1939.Main">
     <configuration name="b12947.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b12947.Main" />
       <module name="2024baekjoon" />
@@ -118,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="b1939.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b1939.Main" />
+      <module name="2024baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b1939.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="b24230.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b24230.Main" />
       <module name="2024baekjoon" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.b1939.Main" />
         <item itemvalue="Application.b18116.Main" />
         <item itemvalue="Application.b12947.Main" />
         <item itemvalue="Application.b14244.Main" />
         <item itemvalue="Application.b24230.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,8 @@
       <workItem from="1721102435261" duration="1704000" />
       <workItem from="1721140903063" duration="14607000" />
       <workItem from="1721215625987" duration="466000" />
-      <workItem from="1721301368957" duration="1387000" />
+      <workItem from="1721301368957" duration="4161000" />
+      <workItem from="1721481867095" duration="3383000" />
     </task>
     <servers />
   </component>
