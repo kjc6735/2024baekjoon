@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/b1010/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b1010/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b17304/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b17304/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/baejoon.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1010/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/b1010/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.b17304.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b1010.Main" />
       <module name="2024baekjoon" />
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b14244.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b14244.Main" />
+    <configuration name="b17304.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b17304.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b14244.*" />
+          <option name="PATTERN" value="b17304.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.b17304.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.b1939.Main" />
         <item itemvalue="Application.b18116.Main" />
         <item itemvalue="Application.b12947.Main" />
-        <item itemvalue="Application.b14244.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,8 @@
       <workItem from="1721301368957" duration="4161000" />
       <workItem from="1721481867095" duration="4100000" />
       <workItem from="1721485984552" duration="107000" />
-      <workItem from="1721572862101" duration="1543000" />
+      <workItem from="1721572862101" duration="1846000" />
+      <workItem from="1721656367793" duration="3327000" />
     </task>
     <servers />
   </component>

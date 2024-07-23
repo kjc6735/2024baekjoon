@@ -28,7 +28,7 @@ public class Main {
             return arr[a][b];
         }
         if( a == b || b == 0) return arr[a][b] = 1;
-        return arr[a][b] = fn(a-1, b-1) + fn(a-1, b);
+        return arr[a][b] = fn(a-1, b-1) +fn(a-1, b);
 
 
     }
