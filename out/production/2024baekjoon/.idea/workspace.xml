@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b775887-3635-4e39-b1fd-96c32d6f6ddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/b17304/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b17304/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b15663/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b24956/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3197/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/baejoon.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b1010/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/b1010/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b10897/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/b10897/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b14719/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/b14719/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b14719/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b14719/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b16198/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/b16198/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2024baekjoon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2024baekjoon/b17304/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2024baekjoon/b17304/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +64,8 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jaechan/Desktop/2024baekjoon&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,13 +79,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.b17304.Main">
+  <component name="RunManager" selected="Application.b3197.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b1010.Main" />
+      <option name="MAIN_CLASS_NAME" value="b15663.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b1010.*" />
+          <option name="PATTERN" value="b15663.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b12947.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b12947.Main" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b10897.Main2" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b12947.*" />
+          <option name="PATTERN" value="b10897.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b17304.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b17304.Main" />
+    <configuration name="b10897.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b10897.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b17304.*" />
+          <option name="PATTERN" value="b10897.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b18116.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b18116.Main" />
+    <configuration name="b24956.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b24956.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b18116.*" />
+          <option name="PATTERN" value="b24956.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b1939.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b1939.Main" />
+    <configuration name="b3197.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b3197.Main" />
       <module name="2024baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b1939.*" />
+          <option name="PATTERN" value="b3197.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.b17304.Main" />
+        <item itemvalue="Application.b3197.Main" />
+        <item itemvalue="Application.b24956.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.b1939.Main" />
-        <item itemvalue="Application.b18116.Main" />
-        <item itemvalue="Application.b12947.Main" />
+        <item itemvalue="Application.b10897.Main" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +183,13 @@
       <workItem from="1721481867095" duration="4100000" />
       <workItem from="1721485984552" duration="107000" />
       <workItem from="1721572862101" duration="1846000" />
-      <workItem from="1721656367793" duration="3327000" />
+      <workItem from="1721656367793" duration="9648000" />
+      <workItem from="1721750821233" duration="725000" />
+      <workItem from="1727154387399" duration="9391000" />
+      <workItem from="1727227185345" duration="10671000" />
+      <workItem from="1727334717713" duration="3180000" />
+      <workItem from="1727508712535" duration="6972000" />
+      <workItem from="1727621475326" duration="4289000" />
     </task>
     <servers />
   </component>
@@ -196,6 +210,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/b16198/Main.java</url>
+          <line>14</line>
+          <properties class="b16198.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/b10897/Main.java</url>
+          <line>7</line>
+          <properties class="b10897.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/b26159/Main.java</url>
